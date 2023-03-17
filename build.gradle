@@ -41,3 +41,8 @@ zip.dependsOn npm_build
 npm_build.dependsOn npm_test
 npm_test.dependsOn npmInstall
 npm_build.dependsOn npmInstall
+
+./gradlew nodeSteup
+./gradlew npmSteup
+./gradlew npm_i
+./gradlew npm_run_build
